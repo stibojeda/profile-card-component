@@ -7,8 +7,10 @@
 body {
   height: 100vh;
   font-family: 'Kumbh Sans', sans-serif;
-  background-image: url('images/bg-pattern-top.svg');
-  background-image: url('images/bg-pattern-bottom.svg');
+  background-image: url('images/bg-pattern-top.svg'),
+                    url('images/bg-pattern-bottom.svg');
+  background-position: -70% 170%, 190% -75%;
+  background-repeat: no-repeat;
   background-color: hsl(185, 75%, 39%);
 }
 
