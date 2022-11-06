@@ -7,11 +7,16 @@
   <title>Profile card</title>
   <link rel="icon" type="image/png" href="images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
   <section class="profile">
     <img class="profile__background" src="images/bg-pattern-card.svg" alt="Background pattern">
-    <img class="profile__photo" src="images/image-victor.jpg" alt="Profile photo">
+    <div class="profile__container__photo">
+      <img class="profile__photo" src="images/image-victor.jpg" alt="Profile photo">
+    </div>
     <h2 class="profile__name">Victor Crest</h2>
     <p class="profile__age">26</p>
     <p class="profile__city">London</p>
@@ -30,6 +35,7 @@
         <h4>Photos</h4>
       </div>
     </div>
+    
   </section>
 </body>
 </html>

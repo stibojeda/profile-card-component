@@ -1,3 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: black;
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url('images/bg-pattern-top.svg');
+  background-image: url('images/bg-pattern-bottom.svg');
+  background-color: hsl(185, 75%, 39%);
+}
+
+.profile {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.profile__background {
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+
+.profile__container__photo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  width: 100%;
+}
+
+.profile__photo {
+  /* position: relative; */
+  margin-top: 85px;
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
+.profile__name {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 18%;
+  color: hsl(229, 23%, 23%);
+}
+
+.profile__age {
+  display: inline-block;
+  color: hsl(227, 10%, 46%);
+}
+
+.profile__city {
+  /* margin: 12px 0 12px 0; */
+  margin-top: 5px;
+  color: hsl(227, 10%, 46%);
+}
+
+.profile__line {
+  margin: 18px 0;
+  border-radius: 5%;
+  border: 1px solid hsl(0, 0%, 59%);
+  opacity: 0.2;
+}
+
+.profile__stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 27px;
+  padding: 0 18px 12px 18px;
+}
+
+.profile__amounts p {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.profile__amounts h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
 }
